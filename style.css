@@ -1,0 +1,59 @@
+body {
+	display: flex;
+	flex-wrap: wrap;
+	overflow-y: scroll;
+}
+
+.item {
+	width: 250px;
+	height: 250px;
+	flex-shrink: 0;
+	margin: 20px;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+	font-family: sans-serif;
+}
+
+.static-item {
+	position: static;
+	background-color: rgb(126, 232, 250)
+}
+
+.fixed-item {
+	background-color: rgb(128, 255, 114);
+	position: fixed;
+	opacity: .75;
+}
+
+.fixed-tem-1 {
+	top: 0;
+	left: 0;
+}
+
+.fixed-item-2 {
+	top: 0;
+	right: 0;
+}
+
+.fixed-item-3 {
+	bottom: 0;
+	right: 0;
+}
+
+.fixed-item-4 {
+	bottom: 0;
+	left: 0;
+}
+
+.fixed-item-5 {
+	bottom: 0;
+	left: 0;
+}
+
+.fixed-item-6 {
+	bottom: 0;
+	left: 0;
+}
